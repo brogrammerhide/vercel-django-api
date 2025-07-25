@@ -1,0 +1,7 @@
+cffi @ file:///tmp/cffi-20231211-83217-qen4sy/cffi-1.16.0
+cryptography==42.0.5
+docutils @ file:///tmp/docutils-20231211-50098-kq8r0g/docutils-0.20.1
+pycparser==2.22
+setuptools==69.2.0
+six==1.16.0
+wheel @ file:///home/linuxbrew/.linuxbrew/Cellar/python%403.12/3.12.2_1/libexec/wheel-0.43.0-py3-none-any.whl#sha256=b66b1ea367126425ba6ef889a0c0b800a291c380b7c313f2198876288fb9be06
