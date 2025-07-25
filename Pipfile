@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+
+[scripts]
+dev = "python3 src/api/core/manage.py runserver"
+startapp = "python3 src/api/core/manage.py startapp"
+loadstatic = "rm -rf core/static && mv client/out/* core/static"
