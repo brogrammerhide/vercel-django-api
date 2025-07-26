@@ -13,6 +13,6 @@ djangorestframework = "*"
 python_version = "3.11"
 
 [scripts]
-dev = "python3 src/api/core/manage.py runserver"
-startapp = "python3 src/api/core/manage.py startapp"
+dev = "python3 manage.py runserver"
+startapp = "python3 manage.py startapp"
 loadstatic = "rm -rf core/static && mv client/out/* core/static"

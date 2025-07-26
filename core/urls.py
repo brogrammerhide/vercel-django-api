@@ -8,7 +8,7 @@ from django.views.static import serve
 urlpatterns = [
     path('', serve_nextjs_index),
     path('admin/', admin.site.urls),
-    path('expense/', include('src.api.expense.urls')),
+    path('expense/', include('expense.urls')),
 ]
 
 urlpatterns += [
